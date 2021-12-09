@@ -1,0 +1,10 @@
+.collection-page {
+  width: 80%;
+  margin: auto;
+}
+
+.collection-page__items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

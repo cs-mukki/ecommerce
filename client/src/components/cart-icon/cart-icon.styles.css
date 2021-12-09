@@ -1,0 +1,19 @@
+.cart-icon {
+  position: relative;
+}
+
+.cart-icon:hover {
+  cursor: pointer;
+}
+
+.cart-icon img {
+  width: 40px;
+  height: 42px;
+}
+
+.cart-icon .cart-count {
+  font-size: 12px;
+  position: absolute;
+  top: 24%;
+  left: 46%;
+}

@@ -1,0 +1,8 @@
+
+About Meeting Mangement Component:
+
+Library used for building tree structure and for parsing to json are, 
+js-tree, json-dir-tree.
+
+But we are having those libraries natively parsed for working with react, so we 
+are gonna use these react based library or core ones...

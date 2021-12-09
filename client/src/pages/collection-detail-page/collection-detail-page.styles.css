@@ -1,0 +1,53 @@
+.collection-detail {
+  width: 80%;
+  padding: 5rem;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  background: whitesmoke;
+  box-shadow: 2px 2px 2px 2px #c0bdbd79;
+}
+
+.detail__left {
+  flex: 0.3;
+}
+
+.detail__left img {
+  width: 22rem;
+  height: 25rem;
+  transition: transform 0.2s;
+  border: 1px solid black;
+}
+
+.detail__left img:hover {
+  cursor: progress;
+  transform: scale(1.1);
+  filter: blur(20%);
+}
+
+.detail__right {
+  margin-left: 20px;
+  flex: 0.7;
+}
+
+.detail__right__buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.detail__right__buttons .btn {
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  border: 1px solid #5fa5f5;
+  background: white;
+}
+
+.detail__right__buttons .btn:hover,
+.collection-detail .btn:active {
+  cursor: pointer;
+  color: white;
+  background: #5fa5f5;
+  border-color: white;
+}

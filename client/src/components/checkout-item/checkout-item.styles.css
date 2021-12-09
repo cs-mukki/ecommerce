@@ -1,0 +1,31 @@
+.checkout-item {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0.5rem auto;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+
+  align-items: center;
+}
+
+.checkout-item > img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.checkout-item .minus,
+.checkout-item .plus {
+  margin: 0 10px;
+  font-size: 1.3rem;
+}
+
+.checkout-item .minus:hover,
+.checkout-item .plus:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.checkout-item__rm:hover {
+  cursor: pointer;
+}
